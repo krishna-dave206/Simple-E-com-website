@@ -1,0 +1,82 @@
+#main_div{
+    display: inline-flex;
+}
+body{
+    background-color:ghostwhite;
+}
+
+
+#fashion, #groceries, #mobiles, #sports{
+    text-align: center;
+    padding:10px;
+    border:2px solid;
+    margin:15px;
+    border-radius: 10px;
+}
+#fashion:hover, #sports:hover{
+    border:2px solid;
+    border-radius: 15px;
+    padding:10px;
+    text-align: center;
+    transition-duration: 0.5s;
+    background-color: black;
+    color:aliceblue;
+    font-size: larger;
+    cursor: pointer;
+}
+#groceries:hover, #mobiles:hover{
+    border:2px solid;
+    border-radius: 15px;
+    padding:10px;
+    text-align: center;
+    transition-duration: 0.8s;
+    background-color: black;
+    color:aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+}
+#deals_head:hover{
+    background-color: black;
+    color:aliceblue;
+    font-weight: 100;
+    padding: 5px;
+    border-radius: 3px;
+    transition-duration: 1s;
+}
+#kitchen_ware{
+    font-size:25px;
+    background-color: aquamarine;
+    padding:3px;
+    border:2px solid;
+    border-radius: 9px;
+    font-weight: 100;
+    font-family:Geneva;
+}
+#kitchen_ware:hover{
+    background-color: black;
+    color: aquamarine;
+    border:0px;
+    margin-left: 30px;
+    padding:10px;
+    transition-duration: 0.8s;
+}
+#kitchen_set{
+    text-align:left;
+    background-color:rgb(255, 255, 255);
+    display: inline-flex;
+    font-size: x-large;
+    padding:10px;
+    border:2px solid black;
+    border-radius: 4px;
+    margin-right:20px;
+}
+#main_kitchen{
+    display: inline-flex;
+}
+#text{
+    margin-left:10px;
+}
+#buy_now{
+    height:40px;
+    font-size: large;
+}
